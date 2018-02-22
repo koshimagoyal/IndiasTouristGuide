@@ -17,27 +17,48 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Tourist"
             android:label="India&apos;s Tourist Guide"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MyRate"
-            android:theme="@style/AppTheme"
-            android:label="Rate"/>
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+        </activity>
+        <activity
+            android:name=".MyRate"
+            android:label="Rate"
+            android:theme="@style/AppTheme" >
+
+        </activity>
         <activity
             android:name=".MyLogin"
             android:label="@string/title_activity_my_login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MyShare"
+            android:label="Share"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MyFeedback"
+            android:label="Feedback"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Delhi"
+            android:label="Delhi"
             android:theme="@style/AppTheme"/>
-        <activity android:name=".MyShare"
-            android:theme="@style/AppTheme"
-            android:label="Share"/>
-        <activity android:name=".MyFeedback"
-            android:theme="@style/AppTheme"
-            android:label="Feedback"></activity>
+        <activity android:name=".Goa"
+            android:label="Goa"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Megh"
+            android:label="Meghalaya"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Jk"
+            android:label="Jammu and Kashmir"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Uk"
+            android:label="Uttarakhand"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

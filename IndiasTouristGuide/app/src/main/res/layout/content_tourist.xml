@@ -16,6 +16,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
             <LinearLayout
+                android:id="@+id/delhi"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"
@@ -23,7 +24,7 @@
                 android:layout_height="90dp"
                 android:orientation="vertical"
                 android:background="@drawable/box"
-                android:alpha="0.3">
+                android:alpha="0.5">
                 <TextView
                     android:layout_marginTop="20dp"
                     android:layout_width="match_parent"
@@ -37,6 +38,7 @@
                     />
             </LinearLayout>
             <LinearLayout
+                android:id="@+id/goa"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"
@@ -44,12 +46,12 @@
                 android:layout_height="90dp"
                 android:orientation="vertical"
                 android:background="@drawable/box"
-                android:alpha="0.3">
+                android:alpha="0.5">
                 <TextView
                     android:layout_marginTop="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="GOA"
+                    android:text="Goa"
                     android:textAlignment="center"
                     android:textStyle="bold"
                     android:textSize="30sp"
@@ -59,6 +61,7 @@
             </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/kashmir"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
@@ -66,29 +69,7 @@
             android:layout_height="90dp"
             android:orientation="vertical"
             android:background="@drawable/box"
-            android:alpha="0.3">
-            <TextView
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="KERALA"
-                android:textAlignment="center"
-                android:textStyle="bold"
-                android:textSize="30sp"
-                android:textColor="#ffffff"
-                android:alpha="1"
-                />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            android:orientation="vertical"
-            android:background="@drawable/box"
-            android:alpha="0.3">
+            android:alpha="0.5">
             <TextView
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
@@ -98,11 +79,11 @@
                 android:textStyle="bold"
                 android:textSize="30sp"
                 android:textColor="#ffffff"
-                android:alpha="1"
                 />
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/meghalaya"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
@@ -110,12 +91,35 @@
             android:layout_height="90dp"
             android:orientation="vertical"
             android:background="@drawable/box"
-            android:alpha="0.3">
+            android:alpha="0.5">
             <TextView
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SHILONG"
+                android:text="Meghalaya"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:alpha="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/uk"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:background="@drawable/box"
+            android:alpha="0.5">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uttarakhand"
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:textSize="30sp"

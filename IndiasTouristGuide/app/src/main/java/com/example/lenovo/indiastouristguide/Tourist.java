@@ -1,9 +1,13 @@
 package com.example.lenovo.indiastouristguide;
 
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.SearchView;
+import android.view.MenuInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,11 +20,16 @@ import android.view.MenuItem;
 
 public class Tourist extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    private View delhi,goa,meghalaya,jk,uk;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tourist);
+        delhi=(View) findViewById(R.id.delhi) ;
+        goa=(View) findViewById(R.id.goa) ;
+        meghalaya=(View)findViewById(R.id.meghalaya);
+        jk=(View)findViewById(R.id.kashmir);
+        uk=(View)findViewById(R.id.uk);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -41,6 +50,78 @@ public class Tourist extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        delhi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                forwardDelhi();
+            }
+
+        });
+
+        goa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                forwardGoa();
+            }
+
+        });
+
+        jk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                forwardJK();
+            }
+
+        });
+
+        uk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                forwardUK();
+            }
+
+        });
+
+        meghalaya.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                forwardMegh();
+            }
+
+        });
+
+    }
+
+
+    public void forwardDelhi(){
+        Intent my = new Intent(this,Delhi.class);
+        startActivity(my);
+    }
+
+    public void forwardGoa(){
+        Intent my = new Intent(this,Goa.class);
+        startActivity(my);
+    }
+
+    public void forwardJK(){
+        Intent my = new Intent(this,Jk.class);
+        startActivity(my);
+    }
+
+    public void forwardUK(){
+        Intent my = new Intent(this,Uk.class);
+        startActivity(my);
+    }
+
+    public void forwardMegh(){
+        Intent my = new Intent(this,Megh.class);
+        startActivity(my);
     }
 
     @Override
@@ -57,6 +138,8 @@ public class Tourist extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.tourist, menu);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.options_menu, menu);
         return true;
     }
 
