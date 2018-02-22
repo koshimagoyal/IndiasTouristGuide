@@ -7,4 +7,6 @@
     <color name="colorEdit">#f8fcfc</color>
     <color name="colorBlack">#191a1a</color>
     <color name="colorCandyAppleRed">#FF0800</color>
+    <color name="colorPink">#FFFF00F7</color>
+    <color name="colorGreen">#FF08FF00</color>
 </resources>

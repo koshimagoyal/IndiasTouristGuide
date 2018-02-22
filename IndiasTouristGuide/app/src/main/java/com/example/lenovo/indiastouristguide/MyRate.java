@@ -41,6 +41,6 @@ public class MyRate extends AppCompatActivity {
         Intent my = new Intent(this,MyLogin.class);
         startActivity(my);
     }
-   
+
 
 }

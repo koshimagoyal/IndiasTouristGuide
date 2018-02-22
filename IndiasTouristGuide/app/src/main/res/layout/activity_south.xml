@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.indiastouristguide.South">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/southgoa"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/goa_back">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/colva"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="165dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:background="@drawable/colva" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/blue_box"
+                            android:alpha="0.8">
+                            <TextView
+                                android:layout_marginLeft="30dp"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Colva Beach"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/Theme.AppCompat.Light.DarkActionBar"
+                                android:textColor="@color/colorEdit"
+                                android:textSize="28sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/agonda"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="165dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:background="@drawable/agonda" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pink_box"
+                            android:alpha="0.8">
+                            <TextView
+                                android:layout_marginLeft="20dp"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Agonda Beach"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/Theme.AppCompat.Light.DarkActionBar"
+                                android:textColor="@color/colorEdit"
+                                android:textSize="28sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/palom"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="165dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:background="@drawable/palom" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/light_blue_box"
+                            android:alpha="0.8">
+                            <TextView
+                                android:layout_marginLeft="10dp"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Palolem Beach"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/Theme.AppCompat.Light.DarkActionBar"
+                                android:textColor="@color/colorEdit"
+                                android:textSize="28sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/jama"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="165dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:background="@drawable/jama_masjid_gallery_1" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/green_box"
+                            android:alpha="0.8">
+                            <TextView
+                                android:layout_marginLeft="20dp"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jama Masjid"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/Theme.AppCompat.Light.DarkActionBar"
+                                android:textColor="@color/colorEdit"
+                                android:textSize="28sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/waterfal"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="165dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left"
+                            android:background="@drawable/waterfal" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/red_box"
+                            android:alpha="0.8">
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dudhsagar Falls"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/Theme.AppCompat.Light.DarkActionBar"
+                                android:textColor="@color/colorEdit"
+                                android:textSize="28sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
