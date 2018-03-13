@@ -50,10 +50,6 @@
             android:label="Goa"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Megh"
-            android:label="Meghalaya"
-            android:theme="@style/AppTheme" />
-        <activity
             android:name=".Jk"
             android:label="Jammu and Kashmir"
             android:theme="@style/AppTheme" />
@@ -61,12 +57,18 @@
             android:name=".Uk"
             android:label="Uttarakhand"
             android:theme="@style/AppTheme" />
-        <activity android:name=".North"
+        <activity
+            android:name=".North"
             android:label="North Goa"
-            android:theme="@style/AppTheme"/>
-        <activity android:name=".South"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".South"
             android:label="South Goa"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Megh"
+            android:label="@string/title_activity_megh"
+            android:theme="@style/SplashScreen"></activity>
     </application>
 
 </manifest>

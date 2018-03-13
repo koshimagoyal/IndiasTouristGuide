@@ -13,6 +13,7 @@
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">@color/colorCandyAppleRed</item>
     </style>
+
     <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorCandyAppleRed">@color/colorCandyAppleRed</item>
         <item name="colorPrimaryDark">@color/colorCandyAppleRed</item>
@@ -21,5 +22,9 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashScreen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="SplashScreen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
